@@ -13,10 +13,13 @@ def list_dwarves(array)
   #array.each_with_index do | index, element |
 	#puts "#{index}.*#{element}/"
 	
+  array.each.with_index(1) do | , index |
+    puts "#{index}. #{company}"
+  end
 	array.each_with_index(1) do |index, array|
     puts "#{index}.*#{item}/"
   end
-end
+
 
 
  #expect(output).to match(/1.*Dopey/)
