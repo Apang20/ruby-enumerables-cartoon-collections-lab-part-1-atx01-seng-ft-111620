@@ -16,8 +16,8 @@ def list_dwarves(array)
   array.each.with_index(1) do | element, index |
     puts "#{index}.*#{element}/"
   end
-  end
-end 
+  #end
+#end 
 
 
  #expect(output).to match(/1.*Dopey/)
