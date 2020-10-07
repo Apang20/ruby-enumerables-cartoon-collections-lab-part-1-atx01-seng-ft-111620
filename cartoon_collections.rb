@@ -9,6 +9,6 @@ def list_dwarves(array)
   # Print a numbered list of each element
   
   #array.each_with_index { |idx, array| puts "#{idx}.*#{array}" }
-  array.each_with_index { |index, array| p "#{index}. *#{array}/" }
+  array.each_with_index { |index, array| puts "#{index}. *#{array}/" }
 end
  #expect(output).to match(/1.*Dopey/)
