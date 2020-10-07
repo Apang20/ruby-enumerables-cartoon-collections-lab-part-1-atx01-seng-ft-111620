@@ -15,7 +15,7 @@ def list_dwarves(array)
 	puts "#{index}. * #{element}/"
 end
 
-#end
+end
  #expect(output).to match(/1.*Dopey/)
  #expect(output).to match(/2.*Grumpy/)
  #expect(output).to match(/3.*Bashful/)
