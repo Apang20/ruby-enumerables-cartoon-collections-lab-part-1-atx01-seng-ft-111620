@@ -12,8 +12,9 @@ def list_dwarves(array)
   #array.each_with_index { |index, item| puts "#{index}. *#{item}/" }
   #array.each_with_index do | index, element |
 	#puts "#{index}.*#{element}/"
-	array.each.with_index(1) do | index, element |
-    puts "#{index}. *#{item}/"
+	
+	array.each_with_index(1) do | index, element |
+    puts "#{index}.*#{item}/"
   end
 end
 
