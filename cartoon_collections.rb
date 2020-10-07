@@ -14,11 +14,14 @@ def list_dwarves(array)
 	#puts "#{index}.*#{element}/"
 	
   #array.each_with_index(1) do | element, index |
-  array.each_with_index do | element, index |
-    puts "#{index}.*#{element}/"
-  end
-  end
-#end 
+  #array.each_with_index do | element, index |
+  #puts "#{index}.*#{element}/"
+  
+  array.each_with_index do |element, index|
+  indexplusone = index + 1
+  puts "#{indexplusone}. * #{element}"
+end
+end 
 
 
  #expect(output).to match(/1.*Dopey/)
